@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'melekgezer-html-server'
-        CONTAINER_NAME = 'melekgezer-container'
-        PORT_MAPPING = '80:4444'
+        DOCKER_IMAGE = 'mervan-html-server'
+        CONTAINER_NAME = 'mervan-container'
+        PORT_MAPPING = '4444:80'
     }
     stages {
 
